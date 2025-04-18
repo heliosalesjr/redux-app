@@ -1,13 +1,11 @@
-
+import { PeopleList } from './components/PeopleList';
 
 function App() {
-
-
   return (
-    <>
-      <h1 className='bg-pink-500 py-16 text-center'>Hi Redux!</h1>
-    </>
-  )
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <PeopleList />
+    </div>
+  );
 }
 
-export default App
+export default App;
